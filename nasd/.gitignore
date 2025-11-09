@@ -1,0 +1,62 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+build/
+### VS Code ###
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Maven/Java build artifacts
+*.class
+out/
+dependency-reduced-pom.xml
+jacoco.exec
+coverage/
+.coverage
+hs_err_pid*
+
+# Environment / secret files
+.env
+.env.local
+*.jks
+*.keystore
+
+# IDE / editor
+.idea/**/workspace.xml
+.history/
+
+# Misc / tool caches
+.mvn/wrapper/maven-wrapper.properties
+.gradle/
+tmp/
